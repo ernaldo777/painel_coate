@@ -1,0 +1,24 @@
+# Painel COATE — requirements.txt
+# Dependências unificadas de todos os módulos
+
+# Core
+streamlit>=1.35
+pandas>=2.0
+plotly>=5.22
+
+# Dados
+openpyxl>=3.1
+pyarrow>=14.0
+
+# DuckDB (módulo CNAE)
+duckdb>=1.1
+
+# AWS Athena (módulo FAROL v5 — opcional em dev)
+boto3>=1.34
+awswrangler>=3.6
+
+# LLM (Agente FAROL)
+openai>=1.30
+
+# Utilitários
+python-dotenv>=1.0
